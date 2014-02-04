@@ -62,7 +62,7 @@
     
     #colophon .primary-navigation li:hover > a,
     #colophon .primary-navigation li.focus > a {
-        background-color: #24890d;
+        background-color: #1AA3FF;
         color: #fff;
     }
 }
@@ -72,4 +72,274 @@
 code pre {
     background: none repeat scroll 0 0 rgba(238, 238, 238, 0.5);
     border-radius: 12px;
+}
+
+/* change color on links and buttons blau #1AA3FF */
+
+a {
+    color: #1AA3FF;
+}
+
+::selection {
+    background: #1AA3FF;
+}
+
+::-moz-selection {
+    background: #1AA3FF;
+}
+
+button,
+.contributor-posts-link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    background-color: #1AA3FF;
+}
+
+.search-toggle {
+    background-color: #1AA3FF;
+}
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #1AA3FF;
+}
+
+.paging-navigation .page-numbers.current {
+    border-top: 5px solid #1AA3FF;
+}
+
+.widget button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"] {
+    background-color: #1AA3FF;
+}
+
+.widget_calendar tbody a {
+    background-color: #1AA3FF;
+}
+
+.content-sidebar .widget a {
+    color: #1AA3FF;
+}
+
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"] {
+    background-color: #1AA3FF;
+}
+
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before {
+    background-color: #1AA3FF;
+}
+
+.slider-direction-nav a:hover {
+    background-color: #1AA3FF;
+}
+
+@media screen and (min-width: 783px) {
+    .primary-navigation ul ul {
+        background-color: #1AA3FF;
+    }
+    
+    .primary-navigation li:hover > a,
+    .primary-navigation li.focus > a {
+        background-color: #1AA3FF;
+    }
+}
+    
+@media screen and (min-width: 1008px) {
+    .secondary-navigation ul ul {
+        background-color: #1AA3FF;
+    }
+    
+    .secondary-navigation li:hover > a,
+    .secondary-navigation li.focus > a {
+        background-color: #1AA3FF;
+    }
+}
+
+button:active,
+.contributor-posts-link:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background-color: #1AA3FF;
+}
+
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+    color: #1AA3FF;
+}
+
+.widget input[type="button"]:active,
+.widget input[type="reset"]:active,
+.widget input[type="submit"]:active {
+    background-color: #1AA3FF;
+}
+
+.content-sidebar .widget input[type="button"]:active,
+.content-sidebar .widget input[type="reset"]:active,
+.content-sidebar .widget input[type="submit"]:active {
+    background-color: #1AA3FF;
+}
+
+a:active,
+a:hover {
+    color: #1AA3FF;
+}
+
+button:hover,
+button:focus,
+.contributor-posts-link:hover,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #1AA3FF;
+}
+
+.search-toggle:hover,
+.search-toggle.active {
+    background-color: #1AA3FF;
+}
+
+.search-box {
+    background-color: #1AA3FF;
+}
+
+.site-navigation a:hover {
+    color: #1AA3FF;
+}
+
+.entry-title a:hover {
+    color: #1AA3FF;
+}
+
+.entry-meta a:hover {
+    color: #1AA3FF;
+}
+
+.cat-links a:hover {
+    color: #1AA3FF;
+}
+
+.entry-meta .tag-links a:hover {
+    background-color: #1AA3FF;
+}
+
+.entry-meta .tag-links a:hover:before {
+    border-right-color: #1AA3FF;
+}
+
+.entry-content .edit-link a:hover {
+    color: #1AA3FF;
+}
+
+.page-links a:hover {
+    background: #1AA3FF;
+    border: 1px solid #1AA3FF;
+}
+
+.post-navigation a:hover,
+.image-navigation a:hover {
+    color: #1AA3FF;
+}
+
+.paging-navigation a:hover {
+    border-top: 5px solid #1AA3FF;
+}
+
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover {
+    color: #1AA3FF;
+}
+
+.comment-reply-title small a:hover {
+    color: #1AA3FF;
+}
+
+.widget a:hover {
+    color: #1AA3FF;
+}
+
+.widget input[type="button"]:hover,
+.widget input[type="button"]:focus,
+.widget input[type="reset"]:hover,
+.widget input[type="reset"]:focus,
+.widget input[type="submit"]:hover,
+.widget input[type="submit"]:focus {
+    background-color: #1AA3FF;
+}
+
+.widget-title a:hover {
+    color: #1AA3FF;
+}
+
+.widget_calendar tbody a:hover {
+    background-color: #1AA3FF;
+}
+
+.widget_twentyfourteen_ephemera .entry-meta a:hover {
+    color: #1AA3FF;
+}
+
+.content-sidebar .widget a:hover {
+    color: #1AA3FF;
+}
+
+.content-sidebar .widget input[type="button"]:hover,
+.content-sidebar .widget input[type="button"]:focus,
+.content-sidebar .widget input[type="reset"]:hover,
+.content-sidebar .widget input[type="reset"]:focus,
+.content-sidebar .widget input[type="submit"]:hover,
+.content-sidebar .widget input[type="submit"]:focus {
+    background-color: #1AA3FF;
+}
+
+.content-sidebar .widget .widget-title a:hover {
+    color: #1AA3FF;
+}
+
+.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+    color: #1AA3FF;
+}
+
+.site-info a:hover {
+    color: #1AA3FF;
+}
+
+.featured-content a:hover {
+    color: #1AA3FF;
+}
+
+.slider-control-paging a:hover:before {
+    background-color: #1AA3FF;
+}
+
+@media screen and (min-width: 783px) {
+    .primary-navigation ul ul a:hover,
+    .primary-navigation ul ul li.focus > a {
+        background-color: #1AA3FF;
+    }
+}
+    
+@media screen and (min-width: 1008px) {
+    .secondary-navigation ul ul a:hover,
+    .secondary-navigation ul ul li.focus > a {
+        background-color: #1AA3FF;
+    }
+}
+
+/* hover animation */
+
+a {
+    transition: all 0.9s ease-out 0s;
 }
