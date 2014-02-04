@@ -1,0 +1,68 @@
+/*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://qrella.com/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       Kostja Wolf
+ Author URI:   http://qrella.com
+ Template:     twentyfourteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentyfourteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* page */
+
+#page {
+    margin: 0 auto;
+}
+
+/* footer */
+
+#colophon {
+    height: 48px;
+}
+
+#colophon .primary-navigation {
+    margin-bottom: -24px;
+}
+
+#menu-footermenu {
+    margin: 0 0 0 20px;
+}
+
+@media screen and (max-width: 783px) {
+    
+    /* Footer Navigation Buttons*/
+
+    #colophon .primary-navigation {
+        padding-top: 0;
+        float: right;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    
+    #colophon .primary-navigation li {
+        border: 0 none;
+        display: inline-block;
+        height: 48px;
+        line-height: 48px;
+        position: relative;
+    }
+    
+    #colophon .primary-navigation a {
+        display: inline-block;
+        padding: 0 12px;
+        white-space: nowrap;
+    }
+    
+    #colophon .primary-navigation li:hover > a,
+    #colophon .primary-navigation li.focus > a {
+        background-color: #24890d;
+        color: #fff;
+    }
+}
