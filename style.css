@@ -15,6 +15,12 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+/* body */
+
+body {
+    background: url("images/pattern-light.svg") repeat fixed 0 0 #B2B2B2 !important;
+}
+
 /* page */
 
 #page {
