@@ -10,9 +10,14 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
-		// Page thumbnail and title.
-		twentyfourteen_post_thumbnail();
-		the_title( '<header class="entry-header"><h1 class="entry-title">', '</h1></header><!-- .entry-header -->' );
+                // rewrite h1 value on start page
+                if(is_home() and !is_paged() or is_front_page()) :
+                    echo '<header class="entry-header"><h1 class="entry-title">herzlich willkommen</h1></header>';
+                else:
+                    // Page thumbnail and title.
+                    twentyfourteen_post_thumbnail();
+                    the_title( '<header class="entry-header"><h1 class="entry-title">', '</h1></header><!-- .entry-header -->' );
+                endif;
 	?>
 
 	<div class="entry-content">
