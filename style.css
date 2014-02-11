@@ -349,3 +349,10 @@ input[type="submit"]:focus {
 a {
     transition: all 0.9s ease-out 0s;
 }
+
+/* disable blog header */
+
+.entry-meta,
+.archive-header {
+    display: none;
+}
