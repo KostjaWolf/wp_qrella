@@ -18,6 +18,9 @@
 <!--[if !(IE 7) | !(IE 8) ]><!-->
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
+<!--[if lte IE 8]>
+<div class="ie_info_box">Zu Alte IE Version</div>
+<![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
@@ -32,6 +35,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php include_once("analyticstracking/analyticstracking.php") ?>    
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
