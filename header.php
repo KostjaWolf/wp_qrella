@@ -29,11 +29,10 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-        <?php include_once("analyticstracking/analyticstracking.php") ?>
 </head>
 
 <body <?php body_class(); ?>>
-    
+<?php include_once("analyticstracking/analyticstracking.php") ?>    
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
