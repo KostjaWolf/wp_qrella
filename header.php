@@ -23,7 +23,7 @@
         #page {display:none;visibility:hidden;}
     </style>
     <?php echo "Ihre IE Version ist nicht mit qrella.com kompatibel.<br/>
-    Bitte verwenden Sie eine aktuellere IE Version oder einen andere Browser wie Firefox oder Google Chrome."; ?>
+    Bitte verwenden Sie eine aktuellere IE Version oder einen anderen Browser wie Firefox oder Google Chrome."; ?>
 <![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
