@@ -11,9 +11,21 @@
 */
 
 @import url("../twentyfourteen/style.css");
+@import url(http://fonts.googleapis.com/css?family=Sarina);
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+/* qrella.com logo */
+
+h1.site-title {
+    font-family: 'Sarina', cursive;
+}
+
+h1.site-title a:hover {
+    color: #1AA3FF;
+    transition: all 0.9s ease-out 0s;
+}
 
 /* body */
 
