@@ -24,6 +24,11 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <?php
+            if(is_home() and !is_paged() or is_front_page()) :
+                echo '<link rel="author" href="https://plus.google.com/u/0/110113985568181535364"/>';
+            endif;
+	?>
         <link rel="shortcut icon" href="http://qrella.com/wp-content/uploads/2014/02/favicon.ico" type="image/x-icon">
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
