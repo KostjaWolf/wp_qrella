@@ -399,3 +399,7 @@ a {
 #twitter-widget-0 {
     margin-bottom: 0;
 }
+
+#twitter-widget-0 .timeline {
+    border-radius: 0;
+}
