@@ -393,3 +393,9 @@ a {
 .bra-social-media-widget h1 {
     display: none;
 }
+
+/* twitter widget */
+
+#twitter-widget-0 {
+    margin-bottom: 0;
+}
