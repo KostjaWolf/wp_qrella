@@ -387,3 +387,9 @@ a {
     display: none;
     visibility: hidden;
 }
+
+/* icons widget header */
+
+.bra-social-media-widget h1 {
+    display: none;
+}
